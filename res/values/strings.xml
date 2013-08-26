@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieSearchVolley</string>
+    <string name="movieSearchButtonText">Search</string>
+    <string name="movieEditTextHint">Title</string>
+    <string name="contentImageView">poster</string>
+</resources>
