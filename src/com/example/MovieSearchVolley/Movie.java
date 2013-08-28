@@ -217,89 +217,90 @@ public class Movie {
     public void setVote_count(int vote_count) {
         this.vote_count = vote_count;
     }
+
+
+    class Genre {
+        private int id;
+        private String name;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
+    class ProductionCompany {
+        private String name;
+        private int id;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
+    class ProductionCountry {
+        private String iso_3166_1;
+        private String name;
+
+        public String getIso_3166_1() {
+            return iso_3166_1;
+        }
+
+        public void setIso_3166_1(String iso_3166_1) {
+            this.iso_3166_1 = iso_3166_1;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
+    class SpokenLanguage {
+        private String iso_639_1;
+        private String name;
+
+        public String getIso_639_1() {
+            return iso_639_1;
+        }
+
+        public void setIso_639_1(String iso_639_1) {
+            this.iso_639_1 = iso_639_1;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+
 }
-
-class Genre {
-    private int id;
-    private String name;
-
-    int getId() {
-        return id;
-    }
-
-    void setId(int id) {
-        this.id = id;
-    }
-
-    String getName() {
-        return name;
-    }
-
-    void setName(String name) {
-        this.name = name;
-    }
-}
-
-class ProductionCompany {
-    private String name;
-    private int id;
-
-    int getId() {
-        return id;
-    }
-
-    void setId(int id) {
-        this.id = id;
-    }
-
-    String getName() {
-        return name;
-    }
-
-    void setName(String name) {
-        this.name = name;
-    }
-}
-
-class ProductionCountry {
-    private String iso_3166_1;
-    private String name;
-
-    String getIso_3166_1() {
-        return iso_3166_1;
-    }
-
-    void setIso_3166_1(String iso_3166_1) {
-        this.iso_3166_1 = iso_3166_1;
-    }
-
-    String getName() {
-        return name;
-    }
-
-    void setName(String name) {
-        this.name = name;
-    }
-}
-
-class SpokenLanguage {
-    private String iso_639_1;
-    private String name;
-
-    String getIso_639_1() {
-        return iso_639_1;
-    }
-
-    void setIso_639_1(String iso_639_1) {
-        this.iso_639_1 = iso_639_1;
-    }
-
-    String getName() {
-        return name;
-    }
-
-    void setName(String name) {
-        this.name = name;
-    }
-}
-
